@@ -20,4 +20,4 @@ def send(text):
         server.login(sender, password)
 
         server.send_message(msg)
-
+    print(f'Email sent to {rec} at {time.strftime("%x %X")}')
