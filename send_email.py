@@ -20,10 +20,7 @@ def send(text):
         server.login(sender, password)
 
         server.send_message(msg)
-<<<<<<< HEAD
 
     print(f"Sent to {rec} at {time.strftime('%x %X')}")
 
-=======
-    print(f'Email sent to {rec} at {time.strftime("%x %X")}')
->>>>>>> c975f2d8957c069e18837de8c3d41f1e41142fca
+
