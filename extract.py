@@ -11,6 +11,8 @@ qty = [2, 2, 2, 3]
 current_price = [-2000, -3430, 2340, -20]
 margin = [0, 0, 0, 0]
 
+send("Hello,\nServer Started.\n\n Thank you,\nNanda")
+
 
 while True:
     h = (time.strftime('%H'))
