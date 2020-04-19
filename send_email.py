@@ -21,3 +21,5 @@ def send(text):
 
         server.send_message(msg)
 
+    print(f"Sent to {rec} at {time.strftime('%x %X')}")
+

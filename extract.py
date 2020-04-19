@@ -11,7 +11,7 @@ qty = [2, 2, 2, 3]
 current_price = [-2000, -3430, 2340, -20]
 margin = [0, 0, 0, 0]
 
-send("Hello,\nServer Started.\n\n Thank you,\nNanda")
+send("Hello,\nServer Started.\n\nThank you,\nNanda")
 
 
 while True:
@@ -48,7 +48,9 @@ while True:
             g = open('helping.txt', 'rt')
             send(g.read())
             f.close()
-            print('sent')
+            time.sleep(3600)
+            time.sleep(3600)
+            time.sleep(3600)
             time.sleep(3600)
 
     time.sleep(((60 - int(m)) * 60) + (24 - int(h)) * 3600)
